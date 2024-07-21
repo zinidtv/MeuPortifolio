@@ -8,7 +8,7 @@
     $assunto = "Prospecção de cliente - Agência DNZ";
 
     $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone;
-    $cabecalho = "From: contato@agenciadnz.com.br"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion()
+    $cabecalho = "From: alexandrehdinizjev@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion()
 
     if(mail($destinatario,$assunto,$corpo,$cabecalho)) {
         echo("Email enviado com sucesso!");
