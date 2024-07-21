@@ -87,14 +87,14 @@ header > .interface {
     align-items: center;
 }
 
-header a {
+header a, .logo {
     text-decoration: none;
     color: var(--cor10);
     font-weight: bold;
     display: inline-block;
     transition: .5s;
 }
-header nav.menu-desktop a:hover {
+header nav.menu-desktop a:hover, .logo:hover {
     color: var(--cor04);
     transform: scale(1.1);
 }
