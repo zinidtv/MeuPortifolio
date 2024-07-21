@@ -7,7 +7,7 @@
     $destinatario = "zinidgames@gmail.com";
     $assunto = "Prospecção de cliente - Agência DNZ";
 
-    $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone;
+    $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$msg;
     $cabecalho = "From: alexandrehdinizjev@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion()
 
     if(mail($destinatario,$assunto,$corpo,$cabecalho)) {
