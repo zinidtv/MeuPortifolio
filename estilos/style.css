@@ -326,7 +326,7 @@ section.portifolio .flex {
     font-size: 24px;
     font-weight: 600;
     color: var(--cor04);
-    box-shadow: 0 0 13px var(--cor08);
+    box-shadow: 0 0 9px var(--cor08);
     opacity: 0;
 
     display: flex;
