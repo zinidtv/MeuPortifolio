@@ -14,6 +14,7 @@
     --cor08: #00AFEC;
     --cor09: #5CBDEA;
     --cor10: #474F5B;
+    --cor11: #131313;
 }
 
 /* CONFIG GERAL */
@@ -40,7 +41,7 @@ header {
 }
 
 .btn-contato button {
-    color: var(--cor10);
+    color: var(--cor11);
     padding: 10px 40px;
     font-size: 1.2em;
     font-weight: 600;
@@ -292,7 +293,7 @@ section.sobre .flex {
 /* CONFIG PORTIFÓLIO */
 section.portifolio {
     padding: 40px 4%;
-    box-shadow: 0 0 10px var(--cor08);
+    box-shadow: 0 0 6px var(--cor08);
 }
 
 section.portifolio .flex {
